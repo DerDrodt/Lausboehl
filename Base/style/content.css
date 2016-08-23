@@ -1,0 +1,68 @@
+.content_clear {
+    clear: both;
+    font-size: 0;
+}
+
+
+@media (min-width: 1000px){
+
+    .right_of_slider2 {
+    width: calc(100% - 56%);
+    float: right;
+} 
+    div.slider2 {
+        width: 55%;
+    }
+    
+    /* Two === */
+
+.two{
+    padding: 0;
+    margin: 0 auto 0 auto;
+}
+
+.two_left{
+    float: left;
+    width: calc(50% - 2.5px);
+    margin: 0 5px 0 0;
+}
+
+.two_right{
+    float: left;
+    width: calc(50% - 2.5px);
+}
+
+    /* Three - 111 === */
+
+.three_111{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.three_1_left{
+    float: left;
+    width: calc( 100%/3 - 10px/3);
+    margin: 0 5px 0 0;
+}
+
+.three_1_right{
+    float: left;
+    width: calc( 100%/3 - 10px/3);;
+}
+
+    /* Thre - 21 === */
+
+.three_21 {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.three_2_left {
+    float: left;
+    width: 60%;
+    margin: 0 2% 0 0;
+}
+}
+
+@media (max-width: 1000px){
+    .two, .two_left, .two_right, .three_111, .three_1_left, .three_1_right, .three_21, .three_2_left, div.slider2 {width: 100%}

@@ -1,0 +1,621 @@
+/* Desktop === */
+
+@media (min-width: 585px){
+/* = General === */
+
+    #nav_container {
+        display: none;
+    }
+    
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.clip {
+    position: absolute;
+   clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+   clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* = Header === */
+
+header {
+    background-color: #4dd2ff;
+    margin: 0;
+    padding: 10px;
+}
+
+    header a, header a:link,  header a:hover, header a:focus, header a:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+
+.title {
+    color: black;
+    opacity: 0.7;
+    margin-left: 115px;
+}
+
+.title h1 {
+    font-size: 250%;
+}
+    
+    .logo {
+        width: 110px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+/* == NavBar === */
+
+nav {
+    font-size: 120%;
+    margin: 0;
+    background-color: #0099cc;
+    padding: 0;
+}
+
+nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 120%;
+    list-style: none;
+    display: inline-block;
+    padding: 0 0.6em;
+    color: white;
+    opacity: 0.95;
+    background-color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    white-space: nowrap;
+    height: 100%;
+    padding: 0;
+    margin: 0 -2px;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav a.active {
+    background-color: #00ace6;
+
+}
+
+/* = Main === */
+
+    main {
+        margin: 0;
+        background-color: #99e6ff;
+        padding: 15px 0;
+    }
+
+    main a {
+        color: rgba(255,255,255,.9);
+        text-decoration: none;
+    }
+
+    main p:first-of-type, main h1:first-of-type, h2 + p {
+        margin-top: 0;
+    }
+
+    main p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    section {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section > h1 {
+        margin: 0 0 0 10px;
+    }
+
+    h1 + article, h2 + article, h3 + article {
+        padding: 10px;
+    }
+
+    main section:first-of-type {
+        margin-top: 0;
+    }
+
+    article {
+        background-color: #00bfff;
+    }
+
+    iframe.pdf {
+        width: 98%;
+        margin: 0 1%;
+        height: 90vh;
+    } 
+    
+    #flyer ul {
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+    
+    #flyer li {
+        margin: 5px 0;
+    }
+
+/* == Text === */
+
+main h1 {
+    font-size: 180%;
+    font-weight: lighter;
+}
+
+main h2 {
+    font-size: 150%;
+    font-weight: lighter;
+    margin: 20px 0 0 0;
+}
+    
+    main h3 {
+        font-weight: normal;
+        font-size: 120%;
+        margin: 0 0 5px 10px;
+    }
+
+.caps {
+    text-transform: uppercase;
+}
+
+main section.no_mar h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* == Formulare === */
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    width: 80px;
+}
+
+fieldset p {
+    margin: 5px 0;
+}
+
+input, select, textarea {
+    width: 98%;
+    height: 23px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #006080;
+    background-color: #99e6ff;
+}
+    
+    select {
+        background: url(../data/images/arrow2.png) no-repeat #99e6ff;
+        background-position: center right;
+        height: 35px;
+        line-height: 35px;
+        -webkit-appearance: none;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    
+    textarea {
+        min-height: 60px;
+    }
+    
+/* == Slider === */
+
+    .bss-slides {
+        width: 55%;
+        float: left;
+    }
+    
+div.slider2 { overflow: hidden; margin: 0; display: inline-block;}
+div.slider2 figure img { width: 20%; float: left;}
+div.slider2 figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+33% { left: -100%; }
+53% { left: -100%; }
+67% { left: -200%; }
+87% { left: -200%; }
+100% { left: -300%; }
+}
+    
+.autor {
+    text-decoration: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #ccf2ff;
+}
+    
+    .right_of_slider {
+        width: calc(100% - 60%);
+        float: right;
+    }    
+
+    aside.map {
+        width: 35%;
+        float: right;
+    }
+    
+
+/* = Footer === */
+
+footer {
+    background-color: #006080;
+    padding: 5px 15px;
+}
+
+footer p {
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+    color: #0099cc;
+}
+
+footer a {
+    color: #64b0e1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+    
+    
+    footer .line::after {
+        content: " •";
+    }
+
+}
+/* = Mobil === */
+
+@media (max-width: 585px) {
+    #nav_container {
+        display: block;
+        background-color: #0099cc;
+        height: 30px;
+        padding: 5px;
+        text-decoration: none;
+    }
+    
+    #nav_container p {
+        position: relative;
+        top: -25%;
+        display: inline;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, .95);
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+    
+    .nav-link {
+        height: 40px;
+        width: 40px;
+        display: inline;
+    }   
+   
+    nav {
+        display: none;
+        height: 0;
+        text-decoration: none;
+    }
+    
+    .visible {
+        display: block;
+        height: auto;
+    }
+    
+    
+    nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 120%;
+    list-style: none;
+    display: block;
+    color: black;
+    opacity: 0.95;
+    background-color: inherit;
+    padding:0 0 0 40px;
+    color: rgba(255, 255, 255, .95);
+    height: 35px;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    white-space: nowrap;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #00bfff;
+}
+    
+    nav a:nth-child(odd) {
+        background-color: #80dfff;
+    }
+
+nav a:focus,
+nav a:hover,
+nav a:active,
+nav a.active {
+    background-color: #00ace6;
+
+}
+    
+    /* = General === */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.clip {
+    position: absolute;
+   clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+   clip: rect(1px, 1px, 1px, 1px);
+}
+    
+    /* = Header === */
+
+header {
+    background-color: #4dd2ff;
+    margin: 0;
+    padding: 10px;
+}
+
+    header a, header a:link,  header a:hover, header a:focus, header a:visited{
+        text-decoration: none;
+        color: inherit;
+    }
+
+.title {
+    color: black;
+    opacity: 0.7;
+    margin-left: 75px;
+    vertical-align: middle;
+    min-height: 70px;
+    display: table;
+}
+
+.title h1 {
+    font-size: 150%;
+    margin: 5px 0 0 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+    
+    .logo {
+        width: 70px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+   
+    /* = Main === */
+
+    main {
+        margin: 0;
+        background-color: #99e6ff;
+        padding: 15px 0;
+    }
+
+    main a {
+        color: rgba(255,255,255,.9);
+        text-decoration: none;
+    }
+
+    main p:first-of-type, main h1:first-of-type, h2 + p {
+        margin-top: 0;
+    }
+
+    main p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    section {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    section > h1 {
+        margin: 0 0 0 10px;
+    }
+
+    h1 + article, h2 + article, h3 + article {
+        padding: 10px;
+    }
+
+    main section:first-of-type {
+        margin-top: 0;
+    }
+
+    article {
+        background-color: #00bfff;
+    }
+
+    iframe.pdf {
+        width: 98%;
+        margin: 0 1%;
+        height: 90vh;
+    }    
+
+/* == Text === */
+
+main h1 {
+    font-size: 180%;
+    font-weight: lighter;
+}
+
+main h2 {
+    font-size: 150%;
+    font-weight: lighter;
+    margin: 20px 0 0 0;
+}
+    
+    main h3 {
+        font-weight: normal;
+        font-size: 120%;
+        margin: 0 0 5px 10px;
+    }
+
+.caps {
+    text-transform: uppercase;
+}
+
+main section.no_mar h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* == Formulare === */
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    width: 80px;
+}
+
+fieldset p {
+    margin: 5px 0;
+}
+
+input, select, textarea {
+    width: 98%;
+    height: 23px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #006080;
+    background-color: #99e6ff;
+}
+    
+    select {
+        background: url(../data/images/arrow2.png) no-repeat #99e6ff;
+        background-position: center right;
+        height: 35px;
+        line-height: 35px;
+        -webkit-appearance: none;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    
+    textarea {
+        min-height: 60px;
+    }
+    
+/* == Slider === */
+
+    .bss-slides {
+        width: 90%;
+    }
+    
+div.slider2 { overflow: hidden; margin: 0; display: inline-block;}
+div.slider2 figure img { width: 20%; float: left;}
+div.slider2 figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+33% { left: -100%; }
+53% { left: -100%; }
+67% { left: -200%; }
+87% { left: -200%; }
+100% { left: -300%; }
+}
+.autor {
+    text-decoration: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    background-color: #ccf2ff;
+}
+    
+    /* = Footer === */
+
+footer {
+    background-color: #006080;
+    padding: 5px 15px;
+}
+
+footer p {
+    margin: 5px auto;
+    width: 90%;
+    text-align: center;
+    color: #0099cc;
+}
+
+footer a {
+    color: #64b0e1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+    
+    footer .line, .lastline {
+        display: block;
+    }
+    
+}
+
+#petition {
+    color: orangered;
+    margin-left: 10px;
+    font-size: 20px;
+}

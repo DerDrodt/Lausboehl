@@ -1,0 +1,5 @@
+# robots.txt zu http://www.lausboehl.de/
+
+
+User-agent: *
+Disallow: /test-mode/

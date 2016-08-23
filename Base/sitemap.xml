@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://lausboehl.de/</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/index.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/aktuelles.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/chronik.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/presse.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/leserbriefe.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/data/documents/pdf/Flyer%20Landratswahl%202015.pdf</loc>
+  <lastmod>2016-05-06T10:35:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/data/documents/pdf/Sie%20haben%20die%20Wahl.pdf</loc>
+  <lastmod>2016-05-06T10:35:57+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/data/documents/pdf/Lausb%C3%B6hl_B-Plan_050815.pdf</loc>
+  <lastmod>2016-05-06T10:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/data/documents/pdf/Beschwerde%20Fam.%20Drodt%20Stadt%20GG_August%202015.pdf</loc>
+  <lastmod>2016-05-06T10:35:56+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/kontakt/index.html</loc>
+  <lastmod>2016-05-07T14:41:21+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lausboehl.de/impressum.html</loc>
+  <lastmod>2016-05-07T15:32:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
